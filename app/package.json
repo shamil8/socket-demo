@@ -1,0 +1,19 @@
+{
+  "name": "socket-demo-app",
+  "version": "1.0.0",
+  "description": "Socket IO demo client",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Socket",
+    "Socket-client",
+    "TS"
+  ],
+  "author": "Shamil Qurbonov",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io-client": "^4.0.0"
+  }
+}

@@ -1,8 +1,14 @@
-let nameUs: string = 'Shamil Qurbonov'
-const age: number = 123
-const isPresent: boolean = true
+import { createServer } from "http";
+import { Server, Socket } from "socket.io";
+import { SOCKET_PORT } from './constants'
 
+const httpServer = createServer();
+const io = new Server(httpServer, {
+    // ...
+});
 
-console.log('First and last name: ', nameUs)
-console.log(age)
-console.log('isPresent', isPresent)
+io.on("connection", (socket: Socket) => {
+    console.log('Socket Connected!!!')
+});
+
+httpServer.listen(SOCKET_PORT);

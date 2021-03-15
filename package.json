@@ -1,15 +1,15 @@
 {
-  "name": "learn-socket",
+  "name": "socket-demo",
   "version": "1.0.0",
   "description": "Learn Socket IO",
   "main": "main.ts",
   "scripts": {
-    "build": "ts-node main.ts",
+    "start": "ts-node main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shamil8/learn-socket.git"
+    "url": "git+https://github.com/shamil8/socket-demo.git"
   },
   "keywords": [
     "Socket",
@@ -19,11 +19,14 @@
   "author": "Shamil Qurbonov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shamil8/learn-socket/issues"
+    "url": "https://github.com/shamil8/socket-demo/issues"
   },
-  "homepage": "https://github.com/shamil8/learn-socket#readme",
+  "homepage": "https://github.com/shamil8/socket-demo#readme",
   "devDependencies": {
     "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "socket.io": "^4.0.0"
   }
 }
