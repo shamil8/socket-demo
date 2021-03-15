@@ -1,0 +1,29 @@
+{
+  "name": "learn-socket",
+  "version": "1.0.0",
+  "description": "Learn Socket IO",
+  "main": "main.ts",
+  "scripts": {
+    "build": "ts-node main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamil8/learn-socket.git"
+  },
+  "keywords": [
+    "Socket",
+    "TypeScript",
+    "ES6"
+  ],
+  "author": "Shamil Qurbonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamil8/learn-socket/issues"
+  },
+  "homepage": "https://github.com/shamil8/learn-socket#readme",
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
